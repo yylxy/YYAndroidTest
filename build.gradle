@@ -12,6 +12,14 @@ buildscript {
     }
 }
 
+repositories {
+//    url "http://gitlab.ops.xkeshi.so/android-dev/commons/raw/master/mvn-repo/snapshots"
+    maven { url 'https://github.com/yylxy/YYAndroidTest.git' }
+    jcenter()
+}
+
+
+
 allprojects {
     repositories {
         jcenter()
